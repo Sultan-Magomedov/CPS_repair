@@ -276,14 +276,14 @@ body {
 .main-header--margin {
   margin-block: 24px;
 }
-.main-header__header {
+.main-header__services {
   display: inline-flex;
   line-height: 40px;
   font-size: 28px;
   height: 40px;
   margin: 0;
 }
-.main-header__header::before {
+.main-header__services::before {
   display: inline-block;
   content: "";
   width: 4px;
@@ -433,7 +433,7 @@ body {
   .main-header--margin {
     margin-bottom: 32px;
   }
-  .main-header__header::before {
+  .main-header__services::before {
     margin-right: 20px;
   }
   .main-nav__list {
@@ -481,7 +481,7 @@ body {
   .main-header--margin {
     margin-block: 42px 8px;
   }
-  .main-header__header::before {
+  .main-header__services::before {
     margin-right: 28px;
   }
   .main__buttons {
